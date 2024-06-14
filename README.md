@@ -62,10 +62,12 @@ Add an initial values in your tasks array using the values below:
 ]
 ```
 
-> **Note**: There's an error in TypeScript and you need to identify and fix the error.
+> [!TIP]
+> #0 There's an error in TypeScript and you need to identify and fix the error.
 >
 >
-> In Challenge #1, identify and fix the property in your type in your `TaskItem` type.
+> [!TIP]
+> #1 In Challenge #1, identify and fix the property in your type in your `TaskItem` type.
 
 ****
 
