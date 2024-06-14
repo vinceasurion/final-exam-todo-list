@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>What do you want to do today? 👋</h1>
+
+    <div class="container">
+      <form action="/" method="post">
+        <input type="text" id="task" name="task" required />
+        <button name="action" value="add" type="submit">Add</button>
+      </form>
+
+      <form action="/clear" method="post">
+        <button name="action" value="clear_filter" type="submit">Clear Todo</button>
+      </form>
+
+      <div>
+        <% if (tasks.length > 0) { %>
+        <ul>
+          <% tasks.forEach(({task, id, completed}, index) => { %>
+          <li>
+            <span style="<%= completed ? 'text-decoration: line-through;' : '' %>"
+              ><%= task %></span
+            >
+            <form action="/delete" method="post">
+              <input type="hidden" name="id" value="<%= id %>" />
+              <button type="submit">✓</button>
+            </form>
+          </li>
+          <% }); %>
+        </ul>
+        <% } else { %>
+        <small>You have no available tasks</small>
+        <% } %>
+      </div>
+
+      <div>
+        <small><%= tasks.filter(item => !item.completed).length %> tasks left</small>
+      </div>
+    </div>
+  </body>
+</html>
