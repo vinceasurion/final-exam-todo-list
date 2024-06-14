@@ -8,7 +8,8 @@ For this Part two, students would require to code and do our coding challenges b
 
 Good Luck in your Final Exam Challenge!!! 🥳🎉🍾
 
-> [!Important]: Your primary goal is to implement all the challenges below to make the application working.
+> [!IMPORTANT]
+> Your primary goal is to implement all the challenges below to make the application working.
 
 <img src="./assets/1.png" width='450' alt='project' />
 
@@ -22,7 +23,8 @@ npm install
 
 Run on your local machine
 
-> **Note**: When you run, you'll see a blank screen in the web page which is expected. The application isn't functional yet you need to complete the challenges below in-order to make it functional.
+> [!NOTE]
+> When you run, you'll see a blank screen in the web page which is expected. The application isn't functional yet you need to complete the challenges below in-order to make it functional.
 
 ```sh
 npm run dev
