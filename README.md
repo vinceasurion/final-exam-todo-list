@@ -63,11 +63,10 @@ Add an initial values in your tasks array using the values below:
 ```
 
 > [!TIP]
-> #0 There's an error in TypeScript and you need to identify and fix the error.
 >
+> 1. There's an error in TypeScript and you need to identify and fix the error.
 >
-> [!TIP]
-> #1 In Challenge #1, identify and fix the property in your type in your `TaskItem` type.
+> 1. In Challenge #1, identify and fix the property in your type in your `TaskItem` type.
 
 ****
 
@@ -75,9 +74,11 @@ Add an initial values in your tasks array using the values below:
 
 Implement the `addItem` function to add an item in your `tasks` array. The `addItem` function should accepts a parameter of `task` with type of `string`.
 
-> **TIP** #0: You can use the array built-in method `push` to add a new item in the array.
-
-> **TIP** #1: Make sure to export your `addItem` function and add a return type to it.
+> [!TIP]
+>
+> 1. You can use the array built-in method `push` to add a new item in the array.
+>
+> 1. Make sure to export your `addItem` function and add a return type to it.
 
 ****
 
@@ -85,11 +86,13 @@ Implement the `addItem` function to add an item in your `tasks` array. The `addI
 
 Implement the `completeItem` function to mark as complete the specific task. The `completeItem` function accepts parameter of `id` with a type of `string`. The `id` is the task which will be marked to be complete.
 
-> **TIP** #0: To complete a task, you can use the array built-in method `map` to iterate each item in the array and update the `completed` property to `true`.
-
-> **TIP** #1: Don't forget to update the values of `tasks` array variable above.
-
-> **TIP** #2: Make sure to export your `completeItem` and add a return type to it.
+> [!TIP]
+>
+> 1. To complete a task, you can use the array built-in method `map` to iterate each item in the array and update the `completed` property to `true`.
+>
+> 1. Don't forget to update the values of `tasks` array variable above.
+>
+> 1. Make sure to export your `completeItem` and add a return type to it.
 
 ****
 
@@ -99,7 +102,8 @@ Complete the `clearItems` functionality below to clear all tasks in your todo li
 
 Don't forget to update the `tasks` array variable above to update your tasks values.
 
-> **TIP** #0: Make sure to export your `clearItems` and add a return type to it.
+> [!TIP]
+> Make sure to export your `clearItems` and add a return type to it.
 
 Once you're done implementing all the challenges above, make sure to check the app and functionality is fully working.
 
